@@ -1,0 +1,27 @@
+VALID_LANGUAGES = {"en", "fr", "de", "es"}
+DEFAULT_LANGUAGE = "en"
+
+VALID_CURRENCIES = {"EUR", "USD", "GBP"}
+DEFAULT_CURRENCY = "EUR"
+
+VALID_NATIONALITIES = {"US", "GB", "CA"}
+DEFAULT_NATIONALITY = "US"
+
+VALID_MARKETS = {"US", "GB", "CA", "ES"}
+DEFAULT_MARKET = "ES"
+
+DEFAULT_EXCHANGE_RATE = 1.0
+DEFAULT_MARKUP = 3.0
+DEFAULT_NET_PRICE = 120.00  # Fallback price
+
+EXCHANGE_RATES = {
+    "EUR": 1.0,
+    "USD": 1.1,
+    "GBP": 0.85
+}
+
+MARKUP_RATES = {
+    "US": 3.2,
+    "GB": 2.5,
+    "CA": 4.0
+}
