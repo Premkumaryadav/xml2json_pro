@@ -9,6 +9,8 @@ from app.core.config import (
     VALID_NATIONALITIES, DEFAULT_NATIONALITY
 )
 
+var = "__define_ocg__"
+
 class XMLParser(XMLParserInterface):
     """Parses XML requests and extracts required data."""
 
